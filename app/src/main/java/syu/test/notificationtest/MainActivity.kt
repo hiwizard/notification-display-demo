@@ -52,8 +52,8 @@ class MainActivity : AppCompatActivity() {
 
         // send multi notifications
         val otherTimeMillisList = mutableListOf<Long>()
-        repeat(5) {
-            delay(20_000L)
+        repeat(10) {
+            delay(10_000L)
             val otherTimeMillis = System.currentTimeMillis()
             otherTimeMillisList.add(otherTimeMillis)
             notificationManagerCompat.notify(
